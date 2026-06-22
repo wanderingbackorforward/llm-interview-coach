@@ -1,0 +1,170 @@
+{
+  "版本": 4,
+  "最后更新": "2026-06-22",
+  "说明": "llm-interview-coach v3.7 的学习进度。速成路径改为3天激进版+1小时应急版。批判上限3次。",
+  "速成路径": {
+    "已开启": false,
+    "当前天": 0,
+    "开始日期": null,
+    "面试日期": null,
+    "面试倒计时": null,
+    "每日完成": {
+      "day1": false, "day2": false, "day3": false, "day4": false,
+      "day5": false, "day6": false, "day7": false
+    }
+  },
+  "中断点": {
+    "模式": "精讲",
+    "知识点": "MCP协议",
+    "步骤": 3,
+    "时间戳": "2026-06-22T15:30:00+08:00",
+    "备注": "MCP 台阶①②③ 已讲完（含入参设计+出参设计）。用户答了 Function Calling vs MCP 区别（判断准）。HCS 架构深挖了中心化 MAS / LangChain 当工具箱。出参设计小练习已出但用户还没答。下次回来第一件事：等用户答出参设计练习，然后进入 MCP 台阶④生命周期。"
+  },
+  "最近对话摘要": {
+    "时间": "2026-06-22T15:30:00+08:00",
+    "最后讲的知识点": "MCP outputSchema 出参设计",
+    "最后出的小练习": "面试官问：为什么不做纯JSON要做格式化文本？JSON不是更方便解析吗？",
+    "用户最后回答": "（用户还没答）",
+    "下次第一件事": "等用户答完出参设计练习（为什么不做纯JSON），然后进入MCP台阶④生命周期",
+    "最近3轮互动": [
+      "用户：爱没有 正好半小时 回来了",
+      "皇帝：你回来了。好。入参设计那道题你已经够了…直接开出参设计",
+      "皇帝：讲了裸JSON vs 格式化文本的区别，出了小练习等用户答"
+    ]
+  },
+  "快速模式偏好": {
+    "精讲": false,
+    "填鸭": false,
+    "模拟面试": false
+  },
+  "方向进度": {
+    "03_LLM模型结构": {"状态": "·", "填鸭轮次": 0, "最后练习": null},
+    "04_RAG": {"状态": "✓", "填鸭轮次": 1, "最后练习": "2026-06-19"},
+    "05_RAG项目实战": {"状态": "◐", "填鸭轮次": 0, "最后练习": "2026-06-21"},
+    "07_Agent": {"状态": "◐", "填鸭轮次": 0, "最后练习": "2026-06-21"},
+    "02_Agent项目实战": {"状态": "◐", "填鸭轮次": 0, "最后练习": "2026-06-22"},
+    "10_模型微调": {"状态": "·", "填鸭轮次": 0, "最后练习": null},
+    "08_模型推理加速": {"状态": "·", "填鸭轮次": 0, "最后练习": null},
+    "09_AI_通用素养": {"状态": "·", "填鸭轮次": 0, "最后练习": null},
+    "06_大模型岗位介绍": {"状态": "·", "填鸭轮次": 0, "最后练习": null},
+    "16_面试技巧": {"状态": "·", "填鸭轮次": 0, "最后练习": null},
+    "18_面试实战": {"状态": "◐", "填鸭轮次": 0, "最后练习": "2026-06-21"},
+    "17_答疑": {"状态": "·", "填鸭轮次": 0, "最后练习": null},
+    "15_大模型算法0基础学习全记录": {"状态": "·", "填鸭轮次": 0, "最后练习": null},
+    "14_论文": {"状态": "·", "填鸭轮次": 0, "最后练习": null},
+    "filtered_精华": {"状态": "◐", "填鸭轮次": 0, "最后练习": "2026-06-19"}
+  },
+  "知识点掌握": {
+    "RAG vs 微调": "✓", "RAGAS评估": "·", "Chunk切割": "✓", "稠密/稀疏向量": "✓", "向量数据库": "✓",
+    "RAG进阶": "◐", "Embedding选型": "✓", "RAG项目": "◐",
+    "Agent框架": "◐", "Function Calling": "✓", "MCP协议": "◐", "Agent记忆": "✓", "Multi-Agent": "◐",
+    "ReAct": "✓", "Agent评估": "·", "Agent安全": "·", "A2A协议": "·", "Agent项目": "◐",
+    "Transformer": "·", "BERT vs GPT": "·", "训练三阶段": "·",
+    "PPO vs GRPO": "·", "LoRA": "·", "RLHF细节": "·", "SFT方法": "·",
+    "KV Cache": "·", "上下文压缩": "·", "量化": "·", "蒸馏": "·", "剪枝": "·",
+    "推理框架": "·", "Continuous Batching": "·", "显存计算": "·",
+    "提示词工程": "·", "幻觉缓解": "·", "模型选型": "·", "模型对比": "·", "多模态": "·",
+    "Claude Code": "·", "SKILL": "·", "Vibe Coding": "·", "Openclaw": "·",
+    "Hybrid Search": "◐", "RRF融合": "◐", "Rerank": "✓", "BM25": "✓",
+    "LangChain": "◐", "FastAPI": "·", "ChromaDB": "✓", "TDD": "·",
+    "简历包装": "·", "面试技巧": "·", "项目量化": "◐"
+  },
+  "填鸭当前": {
+    "方向": "04_RAG",
+    "轮次": 1,
+    "已背熟": ["RAG vs 微调", "RAG 流程", "Chunk 切割", "Embedding 选型", "向量数据库"],
+    "待重背": ["Rerank 两种模式", "RAG 缓解幻觉策略"]
+  },
+  "用户偏好": {
+    "路线": "应用层优先（RAG / Agent / 应用技术）",
+    "说明": "2026-06-15 用户明确要学'应用'。排课优先 04RAG → 05RAG项目 → 07Agent → 02Agent项目，及 Skill/MCP/A2A/Function Calling 等应用技术。算法底座(模型结构/推理加速/微调)暂缓，除非用户改主意。",
+    "目标岗位倾向": "大模型应用开发",
+    "教学互动": "每个知识点/台阶讲完，必须用标准格式出小练习检验（✏️小练习N + 面试官场景提问 + 括号提示 + 对标纠偏），不要跳过检验直接问节奏。用户2026-06-15明确要求保持此闭环。"
+  },
+  "简历": {
+    "路径": null,
+    "状态": "项目已纳入（正式简历文档待给）",
+    "项目": [
+      {
+        "名称": "HCS 测试辅助 Agent 平台",
+        "仓库": "https://github.com/wanderingbackorforward/hcs-agent-rebuild",
+        "素材路径": "https://github.com/wanderingbackorforward/hcs-agent-rebuild",
+        "深挖准备状态": "未演练",
+        "项目介绍状态": "未练习",
+        "项目说明": "二次实战版：基于 smart-appointment-ai-agent 的多 Agent 架构与 MODULAR-RAG-MCP-SERVER 的 RAG+MCP 能力，从零搭建的 HCS（混合云）测试辅助 Agent 平台。让测试人员通过自然语言对话完成环境条件确认和技术规范查询。",
+        "核心能力": [
+          "多 Agent 协作：TaskClassificationAgent → EnvironmentMatchingAgent / KnowledgeQAAgent",
+          "Agent Memory：会话级上下文补全，持续抽取环境条件字段",
+          "MCP 知识检索 Server：暴露 query_knowledge_hub / list_collections / get_document_summary（stdio）",
+          "Hybrid Search：Dense Embedding + BM25 稀疏检索 + RRF 融合 + 可选 Rerank",
+          "文档摄取流水线：Load → Split → Transform → Embed → Upsert",
+          "环境匹配：结构化字段筛选 + 模拟 Linux 节点探测 + SQLite 验证快照",
+          "TDD / OpenAPI：单元测试覆盖 + FastAPI 自动生成接口文档"
+        ],
+        "技术栈": ["FastAPI", "LangChain", "ChromaDB", "自研 BM25", "SQLite", "MCP SDK (stdio)", "Jinja2", "OpenAI-compatible API (Qwen/DeepSeek/Zhipu/Azure)"],
+        "相关基础": [
+          "Multi-Agent 协作", "Agent Memory", "MCP 协议", "Hybrid Search", "RRF 融合",
+          "Rerank", "BM25 稀疏检索", "RAG 摄取流水线", "向量数据库(ChromaDB)",
+          "LangChain 框架", "FastAPI + OpenAPI", "TDD", "Function Calling", "ReAct",
+          "RAGAS 评估", "Embedding 选型"
+        ],
+        "面试高频关联": {
+          "MCP协议": "项目核心——自建 MCP Server 暴露知识检索工具，面试必问",
+          "Agent框架": "多 Agent 协作架构（TaskClassification → EnvironmentMatching/KnowledgeQA），面试高频",
+          "Hybrid Search": "Dense+BM25+RRF+Rerank，RAG 岗高频深挖点",
+          "RAG项目": "完整摄取流水线 + 查询引擎，项目深挖必问",
+          "Agent记忆": "会话级上下文补全，Agent 岗高频"
+        },
+        "备注": "此项目合并了旧的两个项目（smart-appointment-ai-agent + MODULAR-RAG-MCP-SERVER），覆盖了面试第一梯队几乎所有高频考点（MCP/Agent框架/Hybrid Search/RAG），是简历头号项目。2026-06-21 用户确认项目已迁移到此仓库。"
+      }
+    ],
+    "技能栏": [],
+    "包装": {
+      "状态": "待定",
+      "备注": "默认最后做，简历太差才提前"
+    },
+    "最后解析": null
+  },
+  "计时": {
+    "超时阈值秒": 120,
+    "限时设置": {
+      "精讲": null,
+      "测试": null,
+      "模拟面试": 180,
+      "填鸭": null,
+      "简历深挖": 300
+    },
+    "历史": []
+  },
+  "今日课表": {
+    "日期": null,
+    "时间盒": null,
+    "节": []
+  },
+  "待复习": ["Rerank 两种模式（Cross Encoder vs LLM）", "RAG 缓解幻觉策略", "Agent 框架对比（LangChain vs LangGraph vs AutoGen）", "MCP 双层错误处理"],
+  "课表历史": [
+    {"日期": "2026-06-19", "内容": "RAG 基础精讲（RAG vs 微调 / RAG 流程 / Chunk 切割 / Embedding / 向量库）+ Agent 概念开头", "时长": "9:00-13:00"},
+    {"日期": "2026-06-21", "内容": "大厂真题复习（RAG 流程 / Chunk 深挖 / Rerank / Embedding 工厂 / 向量库 metadata）+ Agent 精讲（ReAct / Function Calling / Multi-Agent）", "时长": "约3小时"},
+    {"日期": "2026-06-22", "content": "MCP 协议精讲（台阶①②③）+ HCS 项目架构深挖（中心化 MAS / LangChain 当工具箱）", "时长": "约1小时"}
+  ],
+  "模拟面试场次": [
+    {"公司": "字节抖音", "岗位": "Agent", "日期": "2026-06-21", "评分": {"表达": "◐", "深度": "◐"}, "改进": ["STAR 完整，有量化数字", "RAGAS 70%+ 可以再练"]},
+    {"公司": "腾讯 AI", "岗位": "Agent", "日期": "2026-06-21", "评分": {"表达": "◐", "深度": "·"}, "改进": ["多 Agent 架构选型理由讲清了", "追问没答的部分需补"]}
+  ],
+  "试卷完成": {
+    "exam_01": "未做", "exam_02": "未做", "exam_03": "未做", "exam_04": "未做", "exam_05": "未做",
+    "exam_06": "未做", "exam_07": "未做", "exam_08": "未做", "exam_09": "未做", "exam_10": "未做"
+  },
+  "状态图例": {
+    "✓": "已掌握",
+    "◐": "进行中",
+    "·": "没碰"
+  },
+  "题库进度": {
+    "MCP": {"已练": 0, "正确": 0, "最后练习": null},
+    "Agent": {"已练": 0, "正确": 0, "最后练习": null},
+    "Hybrid Search": {"已练": 0, "正确": 0, "最后练习": null},
+    "RAG": {"已练": 0, "正确": 0, "最后练习": null},
+    "简历深挖": {"已练": 0, "正确": 0, "最后练习": null}
+  }
+}

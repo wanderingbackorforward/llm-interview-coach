@@ -1,0 +1,26 @@
+{
+  "hooks": {
+    "Stop": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 /root/llm-coach-v4/.claude/hooks/stop_progress.py"
+          }
+        ]
+      }
+    ],
+    "SessionStart": [
+      {
+        "matcher": "startup|clear|compact",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 /root/llm-coach-v4/.claude/hooks/session_restore.py"
+          }
+        ]
+      }
+    ]
+  }
+}

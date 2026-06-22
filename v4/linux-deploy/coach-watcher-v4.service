@@ -1,0 +1,15 @@
+[Unit]
+Description=Coach Watcher v4 - Python版倒计时+进度条兜底
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/python3 /root/llm-coach-v4/watcher/coach_watcher_v4.py
+Restart=always
+RestartSec=10
+User=root
+Environment=HOME=/root
+Environment=PROGRESS_FILE=/root/llm-coach-v4/progress.json
+
+[Install]
+WantedBy=multi-user.target
